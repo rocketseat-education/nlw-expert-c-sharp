@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4749B844-A2F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8FBC1AC1-A716-40CC-A49C-6AEC457C69A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketseatAuction.API", "src\RocketseatAuction.API\RocketseatAuction.API.csproj", "{413B8630-E172-4E07-A58A-0A617AF4A57F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RocketseatAuction.API", "src\RocketseatAuction.API\RocketseatAuction.API.csproj", "{413B8630-E172-4E07-A58A-0A617AF4A57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Test", "tests\UseCases.Test\UseCases.Test.csproj", "{5FCE8546-84DE-41A3-93EC-FF9EF49B248E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{413B8630-E172-4E07-A58A-0A617AF4A57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413B8630-E172-4E07-A58A-0A617AF4A57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{413B8630-E172-4E07-A58A-0A617AF4A57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCE8546-84DE-41A3-93EC-FF9EF49B248E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCE8546-84DE-41A3-93EC-FF9EF49B248E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCE8546-84DE-41A3-93EC-FF9EF49B248E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCE8546-84DE-41A3-93EC-FF9EF49B248E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{413B8630-E172-4E07-A58A-0A617AF4A57F} = {4749B844-A2FF-478E-A0BB-92196CAD3E26}
+		{5FCE8546-84DE-41A3-93EC-FF9EF49B248E} = {8FBC1AC1-A716-40CC-A49C-6AEC457C69A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06DC1986-866D-44EF-8C3C-1E5CBA7AA153}
